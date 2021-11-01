@@ -1,7 +1,7 @@
 /* font import 
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
 */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
 
 /* universal border-box */
 html {
@@ -19,7 +19,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -44,7 +44,7 @@ HEADER: header-nav, header-hero
 
 header {
     background: #1f2937;
-    color: #fff;
+    color: #f9faf8;
 }
 
 .header-nav, .hero {
@@ -86,11 +86,13 @@ header {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 .hero p {
     color: #e5e7eb;
     font-size: 18px;
+    margin-top: 5px;
 }
 
 
@@ -109,6 +111,7 @@ h2 {
     margin: 16px 0 56px;
     display: flex;
     justify-content: center;
+    gap: 24px;
 }
 
 .info-card {
@@ -169,7 +172,7 @@ SIGN UP SECTION
 }
 
 .signup-text p {
-    color: #f9faf8;
+    color: #e5e7eb;
     margin: 5px 0 0;
 }
 
@@ -184,7 +187,7 @@ FOOTER
 
 footer {
     background: #1f2937;
-    color: #f9faf8;
+    color: #e5e7eb;
     text-align: center;
 }
 
