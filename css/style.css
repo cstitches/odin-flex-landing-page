@@ -29,7 +29,7 @@ body {
 }
 
 button {
-    background: #3882f6;
+    background: #636363;
     border: 0;
     border-radius: 5px;
     color: #f9faf8;
@@ -38,12 +38,23 @@ button {
 }
 
 
+/*** HEADER & FOOTER LINKS ***/
+.header-links a, footer a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+
 /*******************************
 HEADER: header-nav, header-hero
 *******************************/
 
 header {
-    background: #1f2937;
+    background: #2b2b2b;
     color: #f9faf8;
 }
 
@@ -70,11 +81,6 @@ header {
     gap: 16px;
 }
 
-.header-links a {
-    color: #e5e7eb;
-    text-decoration: none;
-}
-
 
 /*** HEADER HERO ***/
 
@@ -93,6 +99,11 @@ header {
     color: #e5e7eb;
     font-size: 18px;
     margin-top: 5px;
+}
+
+.hero img {
+    width: 500px;
+    height: auto;
 }
 
 
@@ -120,7 +131,12 @@ h2 {
 }
 
 .info-card img {
-    border: 2px solid #3882f6;
+    width: 150px;
+    height: auto;
+}
+
+.info-card img {
+    border: 2px solid #636363;
     border-radius: 5px;
 }
 
@@ -154,7 +170,7 @@ SIGN UP SECTION
 *******************************/
 
 .signup-box {
-    background: #3882f6;
+    background: #636363;
     border-radius: 10px;
     color: #f9faf8;
     padding: 48px 100px;
@@ -186,7 +202,7 @@ FOOTER
 *******************************/
 
 footer {
-    background: #1f2937;
+    background: #2b2b2b;
     color: #e5e7eb;
     text-align: center;
 }
