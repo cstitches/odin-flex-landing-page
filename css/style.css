@@ -1,7 +1,10 @@
-/* font import 
-font-family: 'Roboto', sans-serif;
-*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+
+
 
 /* universal border-box */
 html {
@@ -19,7 +22,8 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
 }
 
 .wrapper {
@@ -35,6 +39,11 @@ button {
     color: #f9faf8;
     padding: 8px 32px;
     font-weight: bold;
+}
+
+/* cursive elements */
+h1, h2, h3, .header-logo, .header-links {
+    font-family: 'Homemade Apple', cursive;
 }
 
 
@@ -93,6 +102,7 @@ header {
     font-size: 48px;
     font-weight: 900;
     margin: 0;
+    line-height: 72px;
 }
 
 .hero p {
@@ -138,6 +148,10 @@ h2 {
 .info-card img {
     border: 2px solid #636363;
     border-radius: 5px;
+}
+
+.info-cards a {
+    color: #636363;
 }
 
 
