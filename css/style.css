@@ -42,7 +42,7 @@ button {
 }
 
 /* cursive elements */
-h1, h2, h3, .header-logo, .header-links {
+h1, h2, h3, .header-logo, .header-links, button {
     font-family: 'Homemade Apple', cursive;
 }
 
