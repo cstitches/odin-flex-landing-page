@@ -1,0 +1,1 @@
+Culminating project of the CSS Foundations Flexbox section of The Odin Project's Foundation path.
