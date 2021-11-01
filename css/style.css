@@ -1,0 +1,113 @@
+/* font import 
+font-family: 'Lato', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&display=swap');
+
+/* universal border-box */
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/*******************************
+MAIN LAYOUT: header, .info-sect, .quote-sect, .signup-sect, footer
+*******************************/
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+button {
+    background: #3882f6;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 32px;
+}
+
+
+/*******************************
+HEADER
+*******************************/
+
+header {
+    background: #1f2937;
+    color: #fff;
+}
+
+.header-nav, .hero {
+    margin: 16px 0 85px;
+    display: flex;
+    align-items: center;
+}
+
+/*** HEADER NAVIGATION ***/
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.header-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*** HEADER HERO ***/
+
+.hero-text {
+    padding: 0 16px 0 0;
+}
+
+.hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.hero p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+/*******************************
+INFO SECTION
+*******************************/
+
+
+/*******************************
+QUOTE SECTION
+*******************************/
+
+.quote-sect {
+    background: #e5e7eb;
+}
+
+
+/*******************************
+SIGN UP SECTION
+*******************************/
+
+
